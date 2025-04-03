@@ -4,9 +4,6 @@ import com.onclass.mscapacidad.domain.model.Capacity;
 import com.onclass.mscapacidad.infraestructure.adapters.db.entity.CapacityEntity;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-import java.util.List;
-
 @Component
 public class CapacityEntityMapper {
 

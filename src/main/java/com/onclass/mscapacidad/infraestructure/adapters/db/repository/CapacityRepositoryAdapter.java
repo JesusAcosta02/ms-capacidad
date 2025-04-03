@@ -3,7 +3,6 @@ package com.onclass.mscapacidad.infraestructure.adapters.db.repository;
 import com.onclass.mscapacidad.domain.model.Capacity;
 import com.onclass.mscapacidad.domain.repository.CapacityRepository;
 import com.onclass.mscapacidad.infraestructure.adapters.db.entity.CapacityEntity;
-import com.onclass.mscapacidad.infraestructure.adapters.db.mappers.CapacityEntityMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.r2dbc.core.DatabaseClient;
 import org.springframework.stereotype.Repository;
@@ -16,7 +15,6 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class CapacityRepositoryAdapter implements CapacityRepository {
 
-    private final CapacityReactiveRepository reactiveRepository;
     private final DatabaseClient databaseClient;
 
     @Override
