@@ -18,4 +18,6 @@ public class CapacityMapper {
                 .technologyIds(dto.getTechnologyIds())
                 .build();
     }
+
+
 }
